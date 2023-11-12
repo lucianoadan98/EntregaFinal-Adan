@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camiseta Racing Oficial 2023",
+    "precio": 21000,
+    "img_src": "./img/productos/item1.jpg",
+    "categoria": "Racing"
+  },
+  {
+    "id": 2,
+    "nombre": "Camiseta Racing Alternavita Oficial 2023",
+    "precio": 21000,
+    "img_src": "./img/productos/item2.jpg",
+    "categoria": "Racing"
+  },
+  {
+    "id": 3,
+    "nombre": "Short Racing Oficial 2023",
+    "precio": 15000,
+    "img_src": "./img/productos/item3.jpg",
+    "categoria": "Racing"
+  },
+  {
+    "id": 4,
+    "nombre": "Camiseta San Lorenzo Oficial 2023",
+    "precio": 25000,
+    "img_src": "./img/productos/item4.webp",
+    "categoria": "San Lorenzo"
+  },
+  {
+    "id": 5,
+    "nombre": "Camiseta San Lorenzo Alternativa Oficial 2023",
+    "precio": 25000,
+    "img_src": "./img/productos/item5.webp",
+    "categoria": "San Lorenzo"
+  },
+  {
+    "id": 6,
+    "nombre": "Camiseta 3° Edicion San Lorenzo 2023",
+    "precio": 23500,
+    "img_src": "./img/productos/item6.png",
+    "categoria": "San Lorenzo"
+  },
+  {
+    "id": 7,
+    "nombre": "Short San Lorenzo Oficial 2023",
+    "precio": 16000,
+    "img_src": "./img/productos/item7.png",
+    "categoria": "San Lorenzo"
+  },
+  {
+    "id": 8,
+    "nombre": "Camiseta Boca Juniors Alternativa Oficial 2023",
+    "precio": 27000,
+    "img_src": "./img/productos/item8.jpg",
+    "categoria": "Boca Juniors"
+  },
+  {
+    "id": 9,
+    "nombre": "Camiseta Boca Juniors Oficial 2023",
+    "precio": 27000,
+    "img_src": "./img/productos/item9.jpg",
+    "categoria": "Boca Juniors"
+  },
+  {
+    "id": 10,
+    "nombre": "Camiseta Indesingente Alternativa Oficial 2023",
+    "precio": 23999,
+    "img_src": "./img/productos/item10.jpg",
+    "categoria": "Independiente"
+  },
+  {
+    "id": 11,
+    "nombre": "Camiseta Indesingente Oficial 2023",
+    "precio": 24999,
+    "img_src": "./img/productos/item11.jpg",
+    "categoria": "Independiente"
+  },
+  {
+    "id": 12,
+    "nombre": "Camiseta Velez Alternativa Oficial 2023",
+    "precio": 20999,
+    "img_src": "./img/productos/item12.jpg",
+    "categoria": "Velez"
+  },
+  {
+    "id": 13,
+    "nombre": "Camiseta Velez Oficial 2023",
+    "precio": 22000,
+    "img_src": "./img/productos/item13.jpg",
+    "categoria": "Velez"
+  },
+  {
+    "id": 14,
+    "nombre": "Camiseta River Plate 3° Edicion Oficial 2023",
+    "precio": 27000,
+    "img_src": "./img/productos/item14.webp",
+    "categoria": "River Plate"
+  },
+  {
+    "id": 15,
+    "nombre": "Camiseta River Plate Oficial 2023",
+    "precio": 27000,
+    "img_src": "./img/productos/item15.webp",
+    "categoria": "River Plate"
+  },
+  {
+    "id": 16,
+    "nombre": "Camiseta River Plate Alternativa Oficial 2023",
+    "precio": 28000,
+    "img_src": "./img/productos/item16.webp",
+    "categoria": "River Plate"
+  },
+  {
+    "id": 17,
+    "nombre": "Short Independiente Oficial 2023",
+    "precio": 15999,
+    "img_src": "./img/productos/item17.jpg",
+    "categoria": "Independiente"
+  }
+  
+]

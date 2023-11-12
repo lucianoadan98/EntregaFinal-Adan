@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- toastify import -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Todo Futbol Shop</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar_center">
+        <div class="navbar_menu">
+          <img class="navbar_menuIcon" src="./icons/menuicon.svg" alt="" />
+        </div>
+        <img class="navbar_logo" src="./img/logos/Sin título.png" alt="" />
+        <div class="navbar_cart">
+          <div class="navbar_cart_counter"></div>
+          <img
+            src="./icons/shopping_cart_black_24dp.svg"
+            alt=""
+            class="navbar_cart_icon"
+            navbar_cart_icon
+          />
+        </div>
+      </div>
+    </nav>
+    <!-- CART-SIDEBAR -->
+    <div class="cart_shadow">
+      <div class="cart_sidebar">
+        <img
+          src="./icons/close_black_24dp.svg"
+          alt=""
+          class="cart_close_icon"
+        />
+
+        <h2 class="cart_title">Carrito de Compras</h2>
+        <div class="cart_products">
+          <ul class="cart_products_list"></ul>
+        </div>
+        <h2 class="cart_total">Total: $0</h2>
+        <div class="cart_btns">
+          <button class="cart_btns_buy">Checkout</button>
+          <button class="cart_btns_reset">Borrar</button>
+        </div>
+      </div>
+    </div>
+    <!-- HEADER -->
+    <div class="mainHeader">
+      <img class="mainHeader_img" src="./img/1679414623658-modulo-win-desktop.jpg" alt="" />
+      <h1 class="mainTitle">Todo Futbol</h1>
+    </div>
+    <!-- MAIN VIEW -->
+    <section class="mainContainer">
+      <!-- FILTERS -->
+      <div class="filter_shadow"></div>
+      <div class="filtersContainer">
+                <img
+          src="./icons/close_black_24dp.svg"
+          alt=""
+          class="filtersContainer_close"
+        />
+        <div class="filterCategoria">
+          <h3 class="filterTitle">Categorias</h3>
+          <!-- Filtros por categoria insertados dinámicamente -->
+        </div>
+        <form action="" class="filterForm_price">
+          <div class="filterPrice">
+          <h3 class="filterPrice_title">Precio Máximo</h3>
+          <div class="filterPrice_rangeContainer">
+          <input type="range" min="0" name="price" class="filterPrice_bar"/>
+          <span class="filterPrice_value"></span>
+          </div>
+        </form>
+        </div>
+        <div class="filterOrdenar">
+          <h3 class="filterTitle">Ordenar</h3>
+          <button class="filterOrdenar_precio_indiv ordenarPrecio_d">Mayor Precio</button>
+          <button class="filterOrdenar_precio_indiv ordenarPrecio_a">Menor Precio</button>
+        </div>
+        <button class="filterBorrar">Borrar Filtros</button>
+      </div>
+      <!-- PRODUCTS -->
+      <div class="products_container"></div>
+    </section>
+    <!-- toastify-js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
